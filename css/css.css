@@ -37,6 +37,13 @@ body{
         background-color: rgb(19, 19, 19);
     }
 
+    #dolartituloc {
+        margin-bottom: 3%;
+        font-size: 25px;
+        font-family: "Barlow", sans-serif;
+        font-weight: 400;
+    }
+
 
     #variaciondolarc {
         margin: 0%;
@@ -79,22 +86,24 @@ body{
         display: inline-block;
         margin: 0% 0% 0% 5%;
         outline: 2px solid rebeccapurple;
-        padding: 0% 2% 0% 2%;
+        padding: 0% 1% 0% 1%;
         color: rebeccapurple;
         background: #0000003d;
         font-family: "Barlow", sans-serif;
         font-weight: 300;
+        FONT-SIZE: 15PX;
     }
 
     #tipodedolartxt2c {
         display: inline-block;
         margin: 0% 0% 0% 5%;
         outline: 2px solid rebeccapurple;
-        padding: 0% 2% 0% 2%;
+        padding: 0% 1% 0% 1%;
         color: #000000;
         background: rebeccapurple;
         font-family: "Barlow", sans-serif;
         font-weight: 300;
+        FONT-SIZE: 15PX;
     }
 
     
@@ -112,7 +121,7 @@ body{
 
     #preciodolartxtc {
         display: inline-block;
-        padding: 0% 0% 10% 0%;
+        padding: 0% 0% 2% 0%;
         margin: 0% 0% 0% 0%;
         font-family: "Barlow", sans-serif;
         font-weight: 500;
@@ -121,7 +130,7 @@ body{
     
     #preciodolartxtc2 {
         display: inline-block;
-        padding: 0% 0% 10% 0%;
+        padding: 0% 0% 2% 0%;
         font-family: "Barlow", sans-serif;
         font-weight: 300;
         font-size: 15px;
@@ -262,6 +271,8 @@ body{
     margin-bottom: 15%;
     text-align: center;
     font-size: 24px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
 }
 
 .ventacompra {
