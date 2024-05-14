@@ -110,6 +110,23 @@ body{
         height: 30px;
     }
 
+    #preciodolartxtc {
+        display: inline-block;
+        padding: 0% 0% 10% 0%;
+        margin: 0% 0% 0% 0%;
+        font-family: "Barlow", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    
+    #preciodolartxtc2 {
+        display: inline-block;
+        padding: 0% 0% 10% 0%;
+        font-family: "Barlow", sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+    }
+
 
 }
 
