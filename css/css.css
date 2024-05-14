@@ -1,0 +1,322 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+        background-color: rgb(19, 19, 19);
+}
+
+@media screen and (max-width: 690px) {
+    
+    #panelescl2{
+        display: none;
+    }
+
+    #panelescl3{
+        display: none;
+    }
+
+    #panelescl4{
+        display: none;
+    }
+
+    #panelessecundarios1cl{
+        display: none;
+    }
+
+    #panelessecundarios3cl{
+        display: none;
+    }
+
+    #panelessecundarios2cl {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        background-color: rgb(19, 19, 19);
+    }
+
+
+    #variaciondolarc {
+        margin: 0%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+
+    #titulodolarc{
+        text-align: center;
+    }
+
+    #preciodolarc{
+        padding: 0%;
+        text-align: center;
+    }
+
+    #ventacomprac {
+        padding: 0% 0% 2% 0%;
+        margin: 0;
+        text-align: center;
+    }
+
+    #dolartituloc {
+        margin-bottom: 3%;
+        font-size: 25px;
+    }
+
+    
+
+    #preciodolartxtc {
+        display: inline-block;
+        padding: 0% 0% 2% 0%;
+        margin: 0% 4% 0% 0%;
+        font-family: "Barlow", sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    #tipodedolartxtc {
+        display: inline-block;
+        margin: 0% 0% 0% 5%;
+        outline: 2px solid rebeccapurple;
+        padding: 0% 2% 0% 2%;
+        color: rebeccapurple;
+        background: #0000003d;
+        font-family: "Barlow", sans-serif;
+        font-weight: 300;
+    }
+
+    #tipodedolartxt2c {
+        display: inline-block;
+        margin: 0% 0% 0% 5%;
+        outline: 2px solid rebeccapurple;
+        padding: 0% 2% 0% 2%;
+        color: #000000;
+        background: rebeccapurple;
+        font-family: "Barlow", sans-serif;
+        font-weight: 300;
+    }
+
+    
+    #tiempotxtc {
+        margin-left: 2%;
+        display: inline-block;
+        font-size: 80%;
+    }
+
+    #comprardolarc {
+        padding: 0%;
+        width: 100px;
+        height: 30px;
+    }
+
+
+}
+
+
+
+
+.logo {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.navbar {
+    display: flex;
+    width: 96%;
+    background-color: rgb(19, 19, 19);
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-style: normal;
+    padding: 2%;
+}
+
+
+.paneles2, .paneles3, .paneles4, .paneles5{
+    background-color: rgb(17, 17, 17);
+}
+
+.paneles5{
+    margin-right: 5%;
+}
+
+
+.comprardolar{
+    width: 150px;
+    height: 50px;
+    border-radius: 2cm;
+    font-family: "Barlow", sans-serif;
+    color: white;
+    background-color: rgb(61, 0, 141);
+    border: none;
+    transition: 1s;
+}
+
+.panelesopc {
+    text-decoration-line: none;
+    color: white;
+    font-size: 100%;
+    FONT-WEIGHT: 600;
+    transition: 1s;
+}
+
+.panelprincipal{
+    display: flex;
+    width: 100%;
+}
+
+.panelessecundarios1 {
+    width: 25%;
+    background: rebeccapurple;
+    margin: 2%;
+    height: 370px;
+    margin-top: 6%;
+}
+
+.panelessecundarios3 {
+    width: 25%;
+    background: rebeccapurple;
+    margin: 2%;
+    height: 370px;
+    margin-top: 6%;
+}
+
+
+.panelessecundarios2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: space-evenly;
+    background-color: rgb(19, 19, 19);
+    margin-top: 1%;
+}
+
+.tiposdedolar1, .tiposdedolar2, .tiposdedolar3, .tiposdedolar4, .tiposdedolar5, .tiposdedolar6 {
+    margin: 3%;
+    padding: 2% 4% 0% 4%;
+    background-color: #1a1a1a;
+    color: white;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    flex-grow: 1;
+    flex-basis: 150px;
+}
+
+
+
+.tipodedolartxt {
+    display: inline-block;
+    margin: 0% 5% 0% 5%;
+    outline: 2px solid rebeccapurple;
+    padding: 1%;
+    color: rebeccapurple;
+    background: #0000003d;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+}
+
+
+.tipodedolartxt2 {
+    display: inline-block;
+    margin: 0% 5% 0% 5%;
+    outline: 2px solid rebeccapurple;
+    padding: 1%;
+    color: #000000;
+    background: rebeccapurple;
+}
+
+
+
+.variaciontxt{
+    display: inline-block;
+}
+
+.tiempotxt{
+    margin-left: 10%;
+    display: inline-block;
+    font-size: 80%;
+}
+
+
+.dolartitulo {
+    margin-bottom: 15%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.ventacompra {
+    padding: 0% 0% 15% 0%;
+    margin: -6%;
+    text-align: center;
+}
+
+
+.variaciontxt {
+    display: inline-block;
+    background: green;
+    padding: 0% 10% 0% 10%;
+    font-size: 80%;
+}
+
+.preciodolartxt {
+    display: inline-block;
+    padding: 0% 0% 10% 0%;
+    margin: 0% 0% 0% 0%;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.preciodolartxt2 {
+    display: inline-block;
+    padding: 0% 0% 10% 0%;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+.variaciondolar {
+    margin: -5%;
+    padding-bottom: 20%;
+}
+
+.tiposdedolar1:hover, .tiposdedolar2:hover, .tiposdedolar3:hover, .tiposdedolar4:hover, .tiposdedolar5:hover, .tiposdedolar6:hover {
+outline: 2px solid rebeccapurple;
+box-shadow: 0px 0px 49px #6633996e;
+}
+
+.panelesopc:hover{
+    color: rebeccapurple;
+}
+
+.comprardolar:hover{
+    padding: 1%;
+    background-color: transparent;
+    border: 4px solid rebeccapurple;
+}
+
+div#preciodolarc {
+    text-align: center;
+}
+
+.variaciondolar {
+    margin: -5%;
+    padding-bottom: 20%;
+    text-align: center;
+}
+
+.publicidad {
+    object-fit: cover;
+    width: 100%;
+    height: 370px;
+}
+
+
+
+
+
